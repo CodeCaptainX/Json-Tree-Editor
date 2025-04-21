@@ -1,0 +1,63 @@
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* #18230F */
+/* #27391C */
+/* #255F38 */
+/* #0ae684 */
+
+@theme {
+  --color-primary: #0066cc;      /* Main brand color */
+  --color-secondary: #XYZ;      /* Accent or secondary color */
+  --color-secondary-lighter: #0d121b;      /* Accent or secondary color */
+  --color-secondary: ; 
+  --color-background: #fff;
+  --color-surface: #f5f5f5;
+  --color-primay-accent: #08d97c;
+  --color-heading: #000;
+  --border: #686565;
+  --color-link: #0066cc;
+  --color-hover: #004999;
+
+
+}
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-primary: #02182d;
+    --color-secondary: #1e2939;
+    --color-background: #0f172a;
+    --color-surface: #1e293b;
+    --color-text: #e5e7eb;
+    --color-heading: #ffffff;
+    --color-border: #374151;
+    --color-link: #3b82f6;
+    --color-hover: #60a5fa;
+  }
+}
+
+:root {
+  color-scheme: light dark;
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+
+/* h1 { */
+  /* font-size: 3.2em; */
+  /* line-height: 1.1; */
+/* } */

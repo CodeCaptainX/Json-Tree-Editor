@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+vendor/
+
+# compiled output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# environment files
+.env
+
+# logs
+*.log
+
+# IDE settings
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
