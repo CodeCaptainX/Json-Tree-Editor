@@ -8,7 +8,7 @@ import RemovedKeysHistoryPanel from "../components/HomePages/bottom-panel/Histor
 import KeyRenameDialog from "../components/HomePages/KeyRenameDialog";
 
 import Ads from "../components/HomePages/Ads";
-import Header from "../components/HomePages/header";
+import Header from "../components/HomePages/Header";
 
 // Type definitions
 interface ParentChildPair {
