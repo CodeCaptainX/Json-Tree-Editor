@@ -12,9 +12,11 @@ Thumbs.db
 
 # environment files
 .env
-
+dist/
 # logs
 *.log
+
+node_modules/
 
 # IDE settings
 .vscode/
